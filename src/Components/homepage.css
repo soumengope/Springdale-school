@@ -1,0 +1,14 @@
+.carousel-inner > .carousel-open:checked ~ .carousel-item {
+    position: static;
+    opacity: 100;
+  }
+  .carousel-item {
+    transition: opacity 0.6s ease-out;
+  }
+  .carousel-control {
+    display: none;
+  }
+  .carousel-open:checked ~ .carousel-control {
+    display: block;
+  }
+  
